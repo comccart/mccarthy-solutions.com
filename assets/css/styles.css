@@ -1,0 +1,134 @@
+/* Base / Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2E294E; /* Space Cadet */
+  background-color: #F5F1ED; /* Isabelline */
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: #407899; /* Cerulean */
+}
+a:hover {
+  color: #2E294E;
+}
+
+/* Header */
+.site-header {
+  background: white;
+  padding: 20px 0;
+}
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav a {
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  padding: 80px 0;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hero-text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.hero-text p {
+  font-size: 1.125rem;
+  margin-bottom: 30px;
+}
+.btn-primary {
+  background-color: #FBA60C;
+  color: #2E294E;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.btn-primary:hover {
+  background-color: #E59400;
+}
+
+/* Services */
+.services {
+  padding: 60px 0;
+  background: white;
+}
+.services .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+}
+.services h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Proof */
+.proof {
+  padding: 60px 0;
+}
+.logos img {
+  max-width: 120px;
+  opacity: 0.8;
+  margin-right: 20px;
+}
+.testimonial {
+  margin-top: 40px;
+  border-left: 4px solid #A44A3F; /* Chestnut accent */
+  padding-left: 20px;
+  font-style: italic;
+}
+.testimonial cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+/* CTA Section */
+.cta {
+  padding: 80px 0;
+  background: #2E294E;
+  color: #F5F1ED;
+  text-align: center;
+}
+.cta .btn-primary {
+  background-color: #FBA60C;
+  color: #2E294E;
+}
+.cta .btn-primary:hover {
+  background-color: #E59400;
+}
+
+/* Footer */
+.site-footer {
+  padding: 30px 0;
+  text-align: center;
+  background: white;
+}
+.site-footer p {
+  color: #2E294E;
+}
+
+/* Utility */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
